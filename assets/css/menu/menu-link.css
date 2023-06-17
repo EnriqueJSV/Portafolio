@@ -1,0 +1,9 @@
+.menu__link{
+    text-decoration: none;
+    color: var(--color_texto_grisClaro);
+    font-weight: 500;
+}
+
+.menu__link.contacto{
+    font-weight: bold;
+}

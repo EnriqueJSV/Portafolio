@@ -1,0 +1,16 @@
+:root{
+    /* fuentes */
+    --raleway: 'Raleway', sans-serif;
+
+    /* colores de fondo */
+    --fondo_principal: #F5F5F5;
+
+    /* colores texto */
+    --color_texto_grisClaro: #464646;
+
+}
+
+body{
+    font-family: var(--raleway);
+    background-color: var(--fondo_principal);
+}
