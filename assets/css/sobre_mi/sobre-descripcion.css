@@ -1,0 +1,5 @@
+.sobre__descripcion{
+    color: var(--color_texto_grisClaro);
+    margin-bottom: 1.5rem;
+    width: 73%;
+}
