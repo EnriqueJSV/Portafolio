@@ -1,0 +1,4 @@
+.bio__link{
+    text-decoration: none;
+    color: var(--color_texto_grisClaro);
+}

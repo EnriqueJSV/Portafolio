@@ -1,0 +1,7 @@
+.bio__descripcion{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color_texto_grisClaro);
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}

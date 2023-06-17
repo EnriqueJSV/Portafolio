@@ -1,0 +1,6 @@
+.bio__nombre{
+    font-weight: bold;
+    font-size: 52px;
+    color: var(--color_texto_grisClaro);
+    margin-bottom: 2rem;
+}

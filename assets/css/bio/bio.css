@@ -1,0 +1,6 @@
+.bio{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    align-items: center;
+}

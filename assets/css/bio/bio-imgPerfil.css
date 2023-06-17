@@ -1,0 +1,6 @@
+.bio__imgPerfil{
+    width: 368px;
+    height: 368px;
+    background: url(../../img/perfil.jpg) center / cover; 
+    border-radius: 184px;
+}
