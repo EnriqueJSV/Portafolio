@@ -6,10 +6,12 @@
 
         <title>Portafolio</title>
 
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
 
+        <!-- Stylesheets menu -->
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/bases.css">
         <link rel="stylesheet" href="assets/css/menu/menu.css">
@@ -20,10 +22,22 @@
         <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
         <link rel="stylesheet" href="assets/css/menu/menu-item.css">
         <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+
+        <!-- Stylesheets bio -->
+        <link rel="stylesheet" href="assets/css/bio/bio.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-info.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-nombre.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-descripcion.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-lista.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-item.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-link.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-img.css">
+        <link rel="stylesheet" href="assets/css/bio/bio-imgPerfil.css">
     </head>
 
     <body>
         
+        <!-- Header y menu de navegacion -->
         <section class="menu">
             <header class="menu__header">
                 <div class="menu__img"></div>
@@ -40,5 +54,27 @@
                 </ul>
             </nav>
         </section>
+
+        <main>
+
+            <!-- Bio -->
+            <section class="bio">
+                <div class="bio__info">
+                    <h2 class="bio__nombre">Hola, mi nombre es Enrique Solorzano Vargas y soy Front-End Developer</h2>
+                    <h3 class="bio__descripcion">
+                        Soy tecnico medio en Informatica Empresarial, tengo experiencia en soporte tecnico nivel 2 en firma digital y actualmente
+                        estoy participando en el proyecto Oracle ONE en Alura Latam.
+                    </h3>
+                    <ul class="bio__lista"></ul>
+                    <li class="bio__item"><a href="#" class="bio__link">Github<img src="assets/img/icon_flecha.svg" alt="icono vector" class="bio__img"></a></li>
+                    <li class="bio__item"><a href="#" class="bio__link">Linkedin<img src="assets/img/icon_flecha.svg" alt="icono vector" class="bio__img"></a></li>
+                    <li class="bio__item"><a href="#" class="bio__link">Instagram<img src="assets/img/icon_flecha.svg" alt="icono vector" class="bio__img"></a></li>
+                    <li class="bio__item"><a href="#" class="bio__link">Curriculo PDF<img src="assets/img/icon_flecha.svg" alt="icono vector" class="bio__img"></a></li>
+                </div>
+                <img src="assets/img/perfil.jpg" alt="Imagen perfil" class="bio__imgPerfil">
+            </section>
+            
+        </main>
+
     </body>
 </html>
