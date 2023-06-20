@@ -1,4 +1,5 @@
 .skills__name{
     font-weight: bold;
     margin: 16px 16px;
+    color: var(--color_texto_grisClaro);
 }
