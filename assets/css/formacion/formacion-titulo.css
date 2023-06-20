@@ -1,0 +1,7 @@
+.formacion__titulo{
+    align-self: center;
+    padding: 4rem 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color_texto_grisClaro);
+}

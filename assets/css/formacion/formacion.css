@@ -1,0 +1,8 @@
+.formacion{
+    background-color: var(--fondo_secundario);
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}

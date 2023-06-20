@@ -1,0 +1,6 @@
+.formacion__item__img{
+    height: 285px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
