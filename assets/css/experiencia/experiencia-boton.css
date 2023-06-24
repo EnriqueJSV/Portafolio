@@ -1,0 +1,15 @@
+.experiencia__boton{
+    color: var(--color_texto_azul);
+    background-color: var(--fondo_principal);
+    border: 1px solid var(--color_texto_azul);
+    width: 115%;
+    height: 50px;
+}
+
+.experiencia__boton--azul{
+    color: var(--fondo_principal);
+    background-color: var(--color_texto_azul);
+    border: 1px solid var(--color_texto_azul);
+    width: 130%;
+    height: 50px;
+}

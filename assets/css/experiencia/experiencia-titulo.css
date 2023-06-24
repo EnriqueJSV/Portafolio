@@ -1,0 +1,7 @@
+.experiencia__titulo{
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color_texto_grisClaro);
+    align-self: center;
+    padding: 4rem;
+}
