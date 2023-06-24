@@ -5,3 +5,13 @@
     align-self: center;
     padding: 4rem;
 }
+
+@media screen and (max-width: 768px){
+    .experiencia__titulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

@@ -3,3 +3,13 @@
     margin-bottom: 1.5rem;
     width: 73%;
 }
+
+@media screen and (max-width: 768px){
+    .sobre__descripcion{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

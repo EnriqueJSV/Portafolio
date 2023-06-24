@@ -4,3 +4,13 @@
     padding: 32px 0;
     color: var(--color_texto_grisClaro);
 }
+
+@media screen and (max-width: 768px){
+    .skills__titulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

@@ -7,3 +7,11 @@
 .menu__link.contactoMenu{
     font-weight: bold;
 }
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 320px) {
+    
+}

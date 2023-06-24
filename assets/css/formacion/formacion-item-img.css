@@ -4,3 +4,13 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px){
+    .formacion__item__img{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

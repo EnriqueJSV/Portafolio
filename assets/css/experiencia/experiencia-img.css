@@ -1,3 +1,13 @@
 .experiencia__img{
     width: 50%;
 }
+
+@media screen and (max-width: 768px){
+    .experiencia__img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

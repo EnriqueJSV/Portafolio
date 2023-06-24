@@ -4,3 +4,13 @@
     color: var(--color_texto_grisClaro);
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px){
+    .bio__nombre{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

@@ -5,3 +5,13 @@
     font-size: 32px;
     color: var(--color_texto_grisClaro);
 }
+
+@media screen and (max-width: 768px){
+    .formacion__titulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}

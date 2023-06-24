@@ -7,3 +7,15 @@
     background-color: white;
     margin: 0 2rem;
 }
+
+@media screen and (max-width: 768px){
+    .hobbies__box{
+        width: 25%;
+        height: 118px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+}
