@@ -1,0 +1,5 @@
+.contacto{
+    display: flex;
+    background-color: var(--fondo_secundario);
+    padding: 4rem 2rem;
+}

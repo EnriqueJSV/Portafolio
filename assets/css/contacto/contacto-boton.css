@@ -1,0 +1,7 @@
+.contacto__boton{
+    color: white;
+    background-color: var(--color_texto_azul);
+    border: none;
+    width: 140px;
+    height: 50px;
+}

@@ -1,0 +1,7 @@
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    height: 86%;
+}

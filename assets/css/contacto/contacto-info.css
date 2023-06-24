@@ -1,5 +1,4 @@
-.experiencia{
+.contacto__info{
     display: flex;
     flex-direction: column;
-    padding-bottom: 4rem;
 }

@@ -1,0 +1,12 @@
+.contacto__input{
+    height: 50px;
+    font-family: var(--raleway);
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid var(--color_sombra);
+}
+
+.contacto__input:focus{
+    outline: none;
+    border-bottom: 2px solid var(--color_texto_azul);
+}
