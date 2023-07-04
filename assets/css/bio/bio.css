@@ -5,10 +5,16 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
-    
+@media screen and (min-width: 0px) {
+    .bio{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
 }
 
-@media screen and (max-width: 320px) {
-    
+@media screen and (min-width: 768px){
+    .bio{
+        flex-direction: row;
+        align-items: center;
+    }
 }

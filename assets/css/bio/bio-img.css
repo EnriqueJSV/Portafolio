@@ -1,3 +1,13 @@
 .bio__img{
     padding-left: 0.5rem;
 }
+
+@media screen and (min-width: 0px) {
+    .bio__img{
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}

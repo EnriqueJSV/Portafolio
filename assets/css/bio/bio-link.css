@@ -2,3 +2,13 @@
     text-decoration: none;
     color: var(--color_texto_grisClaro);
 }
+
+@media screen and (min-width: 0px) {
+    .bio__link{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
