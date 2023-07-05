@@ -2,4 +2,11 @@
     width: 24px;
     height: 24px;
     background: url(../../img/decor_nom.svg);
+    padding-right: 0.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__img{
+        padding-right: 0;
+    }
 }

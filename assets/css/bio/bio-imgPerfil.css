@@ -1,17 +1,22 @@
 .bio__imgPerfil{
-    width: 368px;
-    height: 368px;
+    width: 146px;
+    height: 146px;
     background: url(../../img/perfil.jpg) center / cover; 
     border-radius: 184px;
+    margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .bio__imgPerfil{
         width: 146px;
         height: 146px;
+        margin-right: 2rem;
     }
 }
 
-@media screen and (max-width: 320px) {
-    
+@media screen and (min-width: 1024px) {
+    .bio__imgPerfil{
+        width: 368px;
+        height: 368px;
+    }
 }

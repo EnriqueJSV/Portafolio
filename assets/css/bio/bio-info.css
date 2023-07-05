@@ -1,5 +1,11 @@
 .bio__info{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .bio__info{
+        width: 75%;
+    }
 }

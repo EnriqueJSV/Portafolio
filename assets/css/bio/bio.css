@@ -1,20 +1,17 @@
 .bio{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: flex-start;
     margin: 2rem;
-    align-items: center;
+    width: 100%;
 }
 
-@media screen and (min-width: 0px) {
-    .bio{
-        flex-direction: column-reverse;
-        align-items: flex-start;
-    }
-}
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .bio{
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+        width: 97%;
+        margin-right: 0.5rem;
     }
 }

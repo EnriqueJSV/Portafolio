@@ -1,16 +1,12 @@
 .sobre__titulo{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 22px;
     color: var(--color_texto_grisClaro);
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 1024px) {
     .sobre__titulo{
-        font-size: 22px;
+        font-size: 32px;
     }
-}
-
-@media screen and (max-width: 320px) {
-    
 }
