@@ -1,16 +1,12 @@
 .experiencia__proyecto{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 16px;
     color: var(--color_texto_grisClaro);
     padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .experiencia__proyecto{
-        font-size: 16px;
+        font-size: 22px;
     }
-}
-
-@media screen and (max-width: 320px) {
-    
 }

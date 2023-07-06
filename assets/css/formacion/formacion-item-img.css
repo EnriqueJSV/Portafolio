@@ -1,16 +1,21 @@
 .formacion__item__img{
-    height: 285px;
+    height: 118px;
+    width: 296px;
     background-color: white;
     display: flex;
     justify-content: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .formacion__item__img{
-        height: 70px;
+        height: 118px;
+        width: 224px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    
+@media screen and (min-width: 1024px){
+    .formacion__item__img{
+        height: 368px;
+        width: 286px;
+    }
 }

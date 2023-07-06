@@ -1,14 +1,11 @@
 .experiencia__descripcion{
     color: var(--color_texto_grisClaro);
     padding-bottom: 0.5rem;
+    font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .experiencia__descripcion{
-        font-size: 14px;
+        font-size: 16px;
     }
-}
-
-@media screen and (max-width: 320px) {
-    
 }

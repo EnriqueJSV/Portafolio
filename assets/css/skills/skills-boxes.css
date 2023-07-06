@@ -1,15 +1,19 @@
 .skills__boxes{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .skills__boxes{
-        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
-@media screen and (max-width: 320px) {
-    
+@media screen and (min-width: 1024px) {
+    .skills__boxes{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }
