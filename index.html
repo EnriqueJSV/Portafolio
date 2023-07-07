@@ -81,6 +81,7 @@
         <link rel="stylesheet" href="assets/css/contacto/contacto-titulo.css">
         <link rel="stylesheet" href="assets/css/contacto/contacto-descripcion.css">
         <link rel="stylesheet" href="assets/css/contacto/contacto-formulario.css">
+        <link rel="stylesheet" href="assets/css/contacto/contacto-inputContainer.css">
         <link rel="stylesheet" href="assets/css/contacto/contacto-input.css">
         <link rel="stylesheet" href="assets/css/contacto/contacto-mensaje.css">
         <link rel="stylesheet" href="assets/css/contacto/contacto-boton.css">
@@ -281,10 +282,22 @@
                         Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
                     </p>
                     <form action="" class="contacto__formulario">
-                        <input type="text" placeholder="Nombre" class="contacto__input">
-                        <input type="email" placeholder="Email" class="contacto__input">
-                        <input type="text" placeholder="Asunto" class="contacto__input">
-                        <textarea placeholder="Mensaje" class="contacto__mensaje"></textarea>
+                        <div class="contacto__input__container">
+                            <input type="text" placeholder="Nombre" class="contacto__input" required data-type="name">
+                            <span class="contacto__error"></span>
+                        </div>
+                        <div class="contacto__input__container">
+                            <input type="email" placeholder="Email" class="contacto__input" required data-type="email">
+                            <span class="contacto__error"></span>
+                        </div>
+                        <div class="contacto__input__container">
+                            <input type="text" placeholder="Asunto" class="contacto__input" required data-type="subject">
+                            <span class="contacto__error"></span>
+                        </div>
+                        <div class="contacto__input__container">
+                            <textarea placeholder="Mensaje" class="contacto__mensaje" data-type="message"></textarea>
+                            <span class="contacto__error"></span>
+                        </div>
                         <button class="contacto__boton">Enviar mensaje</button>
                     </form>
                 </div>
@@ -297,5 +310,6 @@
             <p class="footer__descripcion">2023</p>
         </footer>
 
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

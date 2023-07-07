@@ -1,0 +1,13 @@
+.contacto__input__container--invalid .contacto__input{
+    border: 1px solid red;
+    margin-bottom: 0.2rem;
+}
+
+.contacto__input__container--invalid .contacto__mensaje{
+    border: 1px solid red;
+    margin-bottom: 0.2rem;
+}
+
+.contacto__input__container--invalid .contacto__error{
+    color: red;
+}
