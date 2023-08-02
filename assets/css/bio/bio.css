@@ -3,7 +3,6 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     margin: 2rem;
-    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,7 +10,5 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 97%;
-        margin-right: 0.5rem;
     }
 }
